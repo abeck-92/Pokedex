@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEF51BF278A06AD00AED1A5 /* Chain_WalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51BE278A06AD00AED1A5 /* Chain_WalletApp.swift */; };
+		FAEF51C1278A06AD00AED1A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51C0278A06AD00AED1A5 /* ContentView.swift */; };
+		FAEF51C3278A06B100AED1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEF51C2278A06B100AED1A5 /* Assets.xcassets */; };
+		FAEF51C6278A06B100AED1A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEF51C5278A06B100AED1A5 /* Preview Assets.xcassets */; };
+		FAEF51CE278A07A800AED1A5 /* AccountCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51CD278A07A800AED1A5 /* AccountCreation.swift */; };
+		FAEF51D0278AA97100AED1A5 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51CF278AA97100AED1A5 /* Movies.swift */; };
+		FAEF51D2278AA9A800AED1A5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51D1278AA9A800AED1A5 /* API.swift */; };
+		FAEF51D4278AB16D00AED1A5 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51D3278AB16D00AED1A5 /* MovieView.swift */; };
+		FAEF51D7278B3C5D00AED1A5 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51D6278B3C5D00AED1A5 /* ImageLoader.swift */; };
+		FAEF51DA278B44BC00AED1A5 /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAEF51D9278B44BC00AED1A5 /* Pokemon Solid.ttf */; };
+		FAEF51DC278B509C00AED1A5 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51DB278B509C00AED1A5 /* ButtonStyles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAEF51BB278A06AD00AED1A5 /* Chain Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chain Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEF51BE278A06AD00AED1A5 /* Chain_WalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain_WalletApp.swift; sourceTree = "<group>"; };
+		FAEF51C0278A06AD00AED1A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAEF51C2278A06B100AED1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEF51C5278A06B100AED1A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAEF51CD278A07A800AED1A5 /* AccountCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreation.swift; sourceTree = "<group>"; };
+		FAEF51CF278AA97100AED1A5 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		FAEF51D1278AA9A800AED1A5 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FAEF51D3278AB16D00AED1A5 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		FAEF51D5278AB4EA00AED1A5 /* Chain-Wallet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Chain-Wallet-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FAEF51D6278B3C5D00AED1A5 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		FAEF51D9278B44BC00AED1A5 /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		FAEF51DB278B509C00AED1A5 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEF51B8278A06AD00AED1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEF51B2278A06AD00AED1A5 = {
+			isa = PBXGroup;
+			children = (
+				FAEF51BD278A06AD00AED1A5 /* Chain Wallet */,
+				FAEF51BC278A06AD00AED1A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEF51BC278A06AD00AED1A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEF51BB278A06AD00AED1A5 /* Chain Wallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEF51BD278A06AD00AED1A5 /* Chain Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				FAEF51D8278B44A400AED1A5 /* Fonts */,
+				FAEF51D5278AB4EA00AED1A5 /* Chain-Wallet-Info.plist */,
+				FAEF51BE278A06AD00AED1A5 /* Chain_WalletApp.swift */,
+				FAEF51CC278A079300AED1A5 /* Views */,
+				FAEF51C2278A06B100AED1A5 /* Assets.xcassets */,
+				FAEF51C4278A06B100AED1A5 /* Preview Content */,
+			);
+			path = "Chain Wallet";
+			sourceTree = "<group>";
+		};
+		FAEF51C4278A06B100AED1A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAEF51C5278A06B100AED1A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAEF51CC278A079300AED1A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAEF51C0278A06AD00AED1A5 /* ContentView.swift */,
+				FAEF51CD278A07A800AED1A5 /* AccountCreation.swift */,
+				FAEF51CF278AA97100AED1A5 /* Movies.swift */,
+				FAEF51D1278AA9A800AED1A5 /* API.swift */,
+				FAEF51D3278AB16D00AED1A5 /* MovieView.swift */,
+				FAEF51DB278B509C00AED1A5 /* ButtonStyles.swift */,
+				FAEF51D6278B3C5D00AED1A5 /* ImageLoader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAEF51D8278B44A400AED1A5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAEF51D9278B44BC00AED1A5 /* Pokemon Solid.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEF51BA278A06AD00AED1A5 /* Chain Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEF51C9278A06B100AED1A5 /* Build configuration list for PBXNativeTarget "Chain Wallet" */;
+			buildPhases = (
+				FAEF51B7278A06AD00AED1A5 /* Sources */,
+				FAEF51B8278A06AD00AED1A5 /* Frameworks */,
+				FAEF51B9278A06AD00AED1A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chain Wallet";
+			productName = "Chain Wallet";
+			productReference = FAEF51BB278A06AD00AED1A5 /* Chain Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEF51B3278A06AD00AED1A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FAEF51BA278A06AD00AED1A5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FAEF51B6278A06AD00AED1A5 /* Build configuration list for PBXProject "Chain Wallet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEF51B2278A06AD00AED1A5;
+			productRefGroup = FAEF51BC278A06AD00AED1A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEF51BA278A06AD00AED1A5 /* Chain Wallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEF51B9278A06AD00AED1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEF51DA278B44BC00AED1A5 /* Pokemon Solid.ttf in Resources */,
+				FAEF51C6278A06B100AED1A5 /* Preview Assets.xcassets in Resources */,
+				FAEF51C3278A06B100AED1A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEF51B7278A06AD00AED1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEF51D7278B3C5D00AED1A5 /* ImageLoader.swift in Sources */,
+				FAEF51C1278A06AD00AED1A5 /* ContentView.swift in Sources */,
+				FAEF51D4278AB16D00AED1A5 /* MovieView.swift in Sources */,
+				FAEF51BF278A06AD00AED1A5 /* Chain_WalletApp.swift in Sources */,
+				FAEF51D0278AA97100AED1A5 /* Movies.swift in Sources */,
+				FAEF51DC278B509C00AED1A5 /* ButtonStyles.swift in Sources */,
+				FAEF51CE278A07A800AED1A5 /* AccountCreation.swift in Sources */,
+				FAEF51D2278AA9A800AED1A5 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAEF51C7278A06B100AED1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEF51C8278A06B100AED1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEF51CA278A06B100AED1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chain Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 95MG63H6WM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chain-Wallet-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becktech.Chain-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEF51CB278A06B100AED1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chain Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 95MG63H6WM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chain-Wallet-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.becktech.Chain-Wallet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEF51B6278A06AD00AED1A5 /* Build configuration list for PBXProject "Chain Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEF51C7278A06B100AED1A5 /* Debug */,
+				FAEF51C8278A06B100AED1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEF51C9278A06B100AED1A5 /* Build configuration list for PBXNativeTarget "Chain Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEF51CA278A06B100AED1A5 /* Debug */,
+				FAEF51CB278A06B100AED1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEF51B3278A06AD00AED1A5 /* Project object */;
+}
