@@ -12,7 +12,7 @@
 		FAEF51C3278A06B100AED1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEF51C2278A06B100AED1A5 /* Assets.xcassets */; };
 		FAEF51C6278A06B100AED1A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEF51C5278A06B100AED1A5 /* Preview Assets.xcassets */; };
 		FAEF51CE278A07A800AED1A5 /* AccountCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51CD278A07A800AED1A5 /* AccountCreation.swift */; };
-		FAEF51D0278AA97100AED1A5 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51CF278AA97100AED1A5 /* Movies.swift */; };
+		FAEF51D0278AA97100AED1A5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51CF278AA97100AED1A5 /* Data.swift */; };
 		FAEF51D2278AA9A800AED1A5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51D1278AA9A800AED1A5 /* API.swift */; };
 		FAEF51D4278AB16D00AED1A5 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51D3278AB16D00AED1A5 /* MovieView.swift */; };
 		FAEF51D7278B3C5D00AED1A5 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF51D6278B3C5D00AED1A5 /* ImageLoader.swift */; };
@@ -27,7 +27,7 @@
 		FAEF51C2278A06B100AED1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAEF51C5278A06B100AED1A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAEF51CD278A07A800AED1A5 /* AccountCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreation.swift; sourceTree = "<group>"; };
-		FAEF51CF278AA97100AED1A5 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		FAEF51CF278AA97100AED1A5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		FAEF51D1278AA9A800AED1A5 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		FAEF51D3278AB16D00AED1A5 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
 		FAEF51D5278AB4EA00AED1A5 /* Chain-Wallet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Chain-Wallet-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -66,10 +66,12 @@
 		FAEF51BD278A06AD00AED1A5 /* Chain Wallet */ = {
 			isa = PBXGroup;
 			children = (
-				FAEF51D8278B44A400AED1A5 /* Fonts */,
 				FAEF51D5278AB4EA00AED1A5 /* Chain-Wallet-Info.plist */,
 				FAEF51BE278A06AD00AED1A5 /* Chain_WalletApp.swift */,
 				FAEF51CC278A079300AED1A5 /* Views */,
+				FAEF51DE278B53CE00AED1A5 /* Styles */,
+				FAEF51D8278B44A400AED1A5 /* Fonts */,
+				FAEF51DD278B539800AED1A5 /* Network */,
 				FAEF51C2278A06B100AED1A5 /* Assets.xcassets */,
 				FAEF51C4278A06B100AED1A5 /* Preview Content */,
 			);
@@ -89,11 +91,7 @@
 			children = (
 				FAEF51C0278A06AD00AED1A5 /* ContentView.swift */,
 				FAEF51CD278A07A800AED1A5 /* AccountCreation.swift */,
-				FAEF51CF278AA97100AED1A5 /* Movies.swift */,
-				FAEF51D1278AA9A800AED1A5 /* API.swift */,
 				FAEF51D3278AB16D00AED1A5 /* MovieView.swift */,
-				FAEF51DB278B509C00AED1A5 /* ButtonStyles.swift */,
-				FAEF51D6278B3C5D00AED1A5 /* ImageLoader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,6 +102,24 @@
 				FAEF51D9278B44BC00AED1A5 /* Pokemon Solid.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FAEF51DD278B539800AED1A5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FAEF51CF278AA97100AED1A5 /* Data.swift */,
+				FAEF51D1278AA9A800AED1A5 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FAEF51DE278B53CE00AED1A5 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				FAEF51DB278B509C00AED1A5 /* ButtonStyles.swift */,
+				FAEF51D6278B3C5D00AED1A5 /* ImageLoader.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +197,7 @@
 				FAEF51C1278A06AD00AED1A5 /* ContentView.swift in Sources */,
 				FAEF51D4278AB16D00AED1A5 /* MovieView.swift in Sources */,
 				FAEF51BF278A06AD00AED1A5 /* Chain_WalletApp.swift in Sources */,
-				FAEF51D0278AA97100AED1A5 /* Movies.swift in Sources */,
+				FAEF51D0278AA97100AED1A5 /* Data.swift in Sources */,
 				FAEF51DC278B509C00AED1A5 /* ButtonStyles.swift in Sources */,
 				FAEF51CE278A07A800AED1A5 /* AccountCreation.swift in Sources */,
 				FAEF51D2278AA9A800AED1A5 /* API.swift in Sources */,
