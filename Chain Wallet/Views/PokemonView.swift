@@ -7,8 +7,9 @@
 
 import SwiftUI
 
-struct MovieView: View {
+struct PokemonView: View {
     @State var singlePokemon: SinglePokemon?
+    @Environment(\.presentationMode) var presentation
     var url: String
     var name: String
     
@@ -30,7 +31,7 @@ struct MovieView: View {
                         AsyncImage(url: URL(string: pokemon.sprites.front_shiny)!,
                                    placeholder: { Image("pokeball") },
                                    image: { Image(uiImage: $0).resizable() })
-                            .frame(width: 350, height: 350)
+                            .frame(width: 250, height: 250)
                             .background(Color.white)
                             .cornerRadius(12)
                         
@@ -48,14 +49,27 @@ struct MovieView: View {
                         Button(action: {
                             
                         }) {
-                            Text("Abilities").font(Font.custom("Pokemon Solid", size: 22))
-                                .foregroundColor(Color.black)
+                            NavigationLink(destination: MovesView(singlePokemon: pokemon)) {
+                                Text("Moves").font(Font.custom("Pokemon Solid", size: 22))
+                                    .foregroundColor(Color.black)
+                            }
                         }
                         .frame(width: UIScreen.main.bounds.width / 1.5, height: 50)
                         .buttonStyle(CustomButtonStyle())                    }
                 }
             }
         }
+        .navigationBarBackButtonHidden(true)
+           .toolbar(content: {
+              ToolbarItem (placement: .navigation)  {
+                 Image(systemName: "arrow.left")
+                 .foregroundColor(.yellow)
+                 .onTapGesture {
+                     // code to dismiss the view
+                     self.presentation.wrappedValue.dismiss()
+                 }
+              }
+           })
     }
 }
 

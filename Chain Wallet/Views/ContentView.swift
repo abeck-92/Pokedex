@@ -21,7 +21,7 @@ struct ContentView: View {
                     
                     if !(pokemon.count == 0) {
                         List(pokemon[0].results) { pokemon in
-                            NavigationLink(destination: MovieView(url: pokemon.url, name: pokemon.name)) {
+                            NavigationLink(destination: PokemonView(url: pokemon.url, name: pokemon.name)) {
                                 HStack {
                                     Image("pokeball")
                                         .resizable()
